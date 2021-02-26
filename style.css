@@ -27,7 +27,7 @@
 }
 
 #circ:hover {
-background-color: rgb(255, 176, 255);
+  background-color: rgb(255, 176, 255);
 }
 
 #circ:active {
@@ -63,13 +63,13 @@ background-color: rgb(255, 176, 255);
 }
 
 #diameter {
-  height:60px;
-  font-size:14pt;
+  height: 60px;
+  font-size: 14pt;
   width: 35%;
   border: 2px solid magenta;
   padding: 8px;
   box-sizing: border-box;
-  transition: .3s;
+  transition: 0.3s;
   display: block;
   margin: 0 auto;
 }
