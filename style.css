@@ -1,11 +1,13 @@
+@import url(//db.onlinewebfonts.com/c/2545d122b16126676225a5b52283ae23?family=VCR+OSD+Mono);
+
 #background {
   background-image: url('https://steamuserimages-a.akamaihd.net/ugc/753717805603759898/92770FC7D2E643215712080CD2015BE38FAFF64F/');
   background-position: center;
   background-size: cover;
   background-repeat: repeat-y;
   background-attachment: fixed;
-  height:100%;
-  width:100%;
+  height: 100%;
+  width: 100%;
 }
 
 #circ {

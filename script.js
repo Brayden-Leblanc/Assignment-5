@@ -16,7 +16,7 @@ function number1 () {
 
   circ = (2 * Math.PI * r)
 
-  document.getElementById('answerc').innerHTML = 'The circumference of a circle with this diameter = ' +circ
+  document.getElementById('answerc').innerHTML = 'The circumference of a circle with this diameter = '+ circ
 }
 
 // This is the area
@@ -29,5 +29,5 @@ function number2 () {
 
   area = (Math.PI * r * r)
 
-  document.getElementById('answera').innerHTML = 'The area of a circle with this diameter = ' +area
+  document.getElementById('answera').innerHTML = 'The area of a circle with this diameter = '+ area
 }
