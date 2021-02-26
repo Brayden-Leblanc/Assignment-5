@@ -1,0 +1,112 @@
+#background {
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/753717805603759898/92770FC7D2E643215712080CD2015BE38FAFF64F/');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  height:100%;
+  width:100%;
+}
+
+#circ {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: magenta;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family: "VCR OSD Mono";
+}
+
+#circ:hover {background-color: rgb(255, 176, 255)}
+
+#circ:active {
+  background-color: rgb(105, 0, 105);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#area {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: magenta;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family: "VCR OSD Mono";
+}
+
+#area:hover {background-color: rgb(255, 176, 255)}
+
+#area:active {
+  background-color: rgb(105, 0, 105);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#diameter {
+  height:60px;
+  font-size:14pt;
+  width: 35%;
+  border: 2px solid magenta
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: .3s;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type=text]:focus{
+  border-color: magenta;
+  box-shadow: 0 0 32px 0 magenta;
+}
+
+#title {
+  display: block;
+  color: whitesmoke;
+  text-shadow: 4px 4px 4px black;
+  font-size: 250%;
+  text-align: center;
+  font-family: "VCR OSD Mono";
+}
+
+input[placeholder] {
+font-family: "VCR OSD Mono";
+}
+
+#answera {
+  display: block;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px black;
+  font-size: 200%;
+  text-align: center;
+  font-family: "VCR OSD Mono";
+}
+
+#answerc {
+  display: block;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px black;
+  font-size: 200%;
+  text-align: center;
+  font-family: "VCR OSD Mono";
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
